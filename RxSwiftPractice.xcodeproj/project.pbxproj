@@ -87,7 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				605A50A61F0FC358004C6EC6 /* AppDelegate.swift */,
-				605A50A81F0FC358004C6EC6 /* NumbersViewController.swift */,
+				605A50D41F105F97004C6EC6 /* Numbers */,
 				605A50AA1F0FC358004C6EC6 /* Main.storyboard */,
 				605A50AD1F0FC358004C6EC6 /* Assets.xcassets */,
 				605A50AF1F0FC358004C6EC6 /* LaunchScreen.storyboard */,
@@ -114,6 +114,14 @@
 				605A50CA1F0FC65A004C6EC6 /* RxTest.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		605A50D41F105F97004C6EC6 /* Numbers */ = {
+			isa = PBXGroup;
+			children = (
+				605A50A81F0FC358004C6EC6 /* NumbersViewController.swift */,
+			);
+			name = Numbers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
