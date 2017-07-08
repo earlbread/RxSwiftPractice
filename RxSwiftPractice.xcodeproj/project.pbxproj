@@ -15,6 +15,7 @@
 		605A50BC1F0FC358004C6EC6 /* RxSwiftPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605A50BB1F0FC358004C6EC6 /* RxSwiftPracticeTests.swift */; };
 		605A50CC1F0FC65A004C6EC6 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 605A50C81F0FC65A004C6EC6 /* RxCocoa.framework */; };
 		605A50CD1F0FC65A004C6EC6 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 605A50C91F0FC65A004C6EC6 /* RxSwift.framework */; };
+		60C28BF31F106AB600D3543F /* NumbersViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60C28BF21F106AB600D3543F /* NumbersViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		605A50C81F0FC65A004C6EC6 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		605A50C91F0FC65A004C6EC6 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		605A50CA1F0FC65A004C6EC6 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
+		60C28BF21F106AB600D3543F /* NumbersViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NumbersViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,12 +88,8 @@
 		605A50A51F0FC358004C6EC6 /* RxSwiftPractice */ = {
 			isa = PBXGroup;
 			children = (
-				605A50A61F0FC358004C6EC6 /* AppDelegate.swift */,
 				605A50D41F105F97004C6EC6 /* Numbers */,
-				605A50AA1F0FC358004C6EC6 /* Main.storyboard */,
-				605A50AD1F0FC358004C6EC6 /* Assets.xcassets */,
-				605A50AF1F0FC358004C6EC6 /* LaunchScreen.storyboard */,
-				605A50B21F0FC358004C6EC6 /* Info.plist */,
+				60C28BF41F1088FE00D3543F /* Application */,
 			);
 			path = RxSwiftPractice;
 			sourceTree = "<group>";
@@ -119,9 +117,22 @@
 		605A50D41F105F97004C6EC6 /* Numbers */ = {
 			isa = PBXGroup;
 			children = (
+				60C28BF21F106AB600D3543F /* NumbersViewController.storyboard */,
 				605A50A81F0FC358004C6EC6 /* NumbersViewController.swift */,
 			);
 			name = Numbers;
+			sourceTree = "<group>";
+		};
+		60C28BF41F1088FE00D3543F /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				605A50A61F0FC358004C6EC6 /* AppDelegate.swift */,
+				605A50AA1F0FC358004C6EC6 /* Main.storyboard */,
+				605A50AD1F0FC358004C6EC6 /* Assets.xcassets */,
+				605A50AF1F0FC358004C6EC6 /* LaunchScreen.storyboard */,
+				605A50B21F0FC358004C6EC6 /* Info.plist */,
+			);
+			name = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,6 +220,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60C28BF31F106AB600D3543F /* NumbersViewController.storyboard in Resources */,
 				605A50B11F0FC358004C6EC6 /* LaunchScreen.storyboard in Resources */,
 				605A50AE1F0FC358004C6EC6 /* Assets.xcassets in Resources */,
 				605A50AC1F0FC358004C6EC6 /* Main.storyboard in Resources */,
