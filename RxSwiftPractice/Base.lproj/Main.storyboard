@@ -100,13 +100,13 @@
             </objects>
             <point key="canvasLocation" x="971" y="-170"/>
         </scene>
-        <!--AddingItemViewController-->
+        <!--RxAddingItemViewController-->
         <scene sceneID="css-Uw-6Ep">
             <objects>
-                <viewControllerPlaceholder storyboardName="AddingItemViewController" id="i8A-3l-u0z" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="RxAddingItemViewController" id="i8A-3l-u0z" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DV1-by-5Si" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="982" y="-125"/>
+            <point key="canvasLocation" x="994" y="-127"/>
         </scene>
     </scenes>
 </document>
