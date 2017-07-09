@@ -102,7 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				6006F5D71F111CE000A0A150 /* AddingItem */,
-				605A50D41F105F97004C6EC6 /* Numbers */,
+				605A50D41F105F97004C6EC6 /* RxNumbers */,
 				60C28BF41F1088FE00D3543F /* Application */,
 			);
 			path = RxSwiftPractice;
@@ -128,13 +128,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		605A50D41F105F97004C6EC6 /* Numbers */ = {
+		605A50D41F105F97004C6EC6 /* RxNumbers */ = {
 			isa = PBXGroup;
 			children = (
 				60C28BF21F106AB600D3543F /* NumbersViewController.storyboard */,
 				605A50A81F0FC358004C6EC6 /* NumbersViewController.swift */,
 			);
-			name = Numbers;
+			name = RxNumbers;
 			sourceTree = "<group>";
 		};
 		60C28BF41F1088FE00D3543F /* Application */ = {
