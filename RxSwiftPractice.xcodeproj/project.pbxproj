@@ -12,14 +12,14 @@
 		6006F5E11F11C03400A0A150 /* RxAddingItemViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6006F5E01F11C03400A0A150 /* RxAddingItemViewController.storyboard */; };
 		6006F5E31F11C07300A0A150 /* RxAddingItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6006F5E21F11C07300A0A150 /* RxAddingItemViewController.swift */; };
 		605A50A71F0FC358004C6EC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605A50A61F0FC358004C6EC6 /* AppDelegate.swift */; };
-		605A50A91F0FC358004C6EC6 /* NumbersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605A50A81F0FC358004C6EC6 /* NumbersViewController.swift */; };
+		605A50A91F0FC358004C6EC6 /* RxNumbersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605A50A81F0FC358004C6EC6 /* RxNumbersViewController.swift */; };
 		605A50AC1F0FC358004C6EC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 605A50AA1F0FC358004C6EC6 /* Main.storyboard */; };
 		605A50AE1F0FC358004C6EC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 605A50AD1F0FC358004C6EC6 /* Assets.xcassets */; };
 		605A50B11F0FC358004C6EC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 605A50AF1F0FC358004C6EC6 /* LaunchScreen.storyboard */; };
 		605A50BC1F0FC358004C6EC6 /* RxSwiftPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605A50BB1F0FC358004C6EC6 /* RxSwiftPracticeTests.swift */; };
 		605A50CC1F0FC65A004C6EC6 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 605A50C81F0FC65A004C6EC6 /* RxCocoa.framework */; };
 		605A50CD1F0FC65A004C6EC6 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 605A50C91F0FC65A004C6EC6 /* RxSwift.framework */; };
-		60C28BF31F106AB600D3543F /* NumbersViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60C28BF21F106AB600D3543F /* NumbersViewController.storyboard */; };
+		60C28BF31F106AB600D3543F /* RxNumbersViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60C28BF21F106AB600D3543F /* RxNumbersViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,7 @@
 		6006F5E21F11C07300A0A150 /* RxAddingItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RxAddingItemViewController.swift; path = RxAddingItem/RxAddingItemViewController.swift; sourceTree = "<group>"; };
 		605A50A31F0FC358004C6EC6 /* RxSwiftPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		605A50A61F0FC358004C6EC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		605A50A81F0FC358004C6EC6 /* NumbersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NumbersViewController.swift; path = Numbers/NumbersViewController.swift; sourceTree = "<group>"; };
+		605A50A81F0FC358004C6EC6 /* RxNumbersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RxNumbersViewController.swift; path = RxNumbers/RxNumbersViewController.swift; sourceTree = "<group>"; };
 		605A50AB1F0FC358004C6EC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		605A50AD1F0FC358004C6EC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		605A50B01F0FC358004C6EC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,7 +51,7 @@
 		605A50C81F0FC65A004C6EC6 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		605A50C91F0FC65A004C6EC6 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		605A50CA1F0FC65A004C6EC6 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
-		60C28BF21F106AB600D3543F /* NumbersViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = NumbersViewController.storyboard; path = Numbers/NumbersViewController.storyboard; sourceTree = "<group>"; };
+		60C28BF21F106AB600D3543F /* RxNumbersViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = RxNumbersViewController.storyboard; path = RxNumbers/RxNumbersViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,8 +145,8 @@
 		605A50D41F105F97004C6EC6 /* RxNumbers */ = {
 			isa = PBXGroup;
 			children = (
-				60C28BF21F106AB600D3543F /* NumbersViewController.storyboard */,
-				605A50A81F0FC358004C6EC6 /* NumbersViewController.swift */,
+				60C28BF21F106AB600D3543F /* RxNumbersViewController.storyboard */,
+				605A50A81F0FC358004C6EC6 /* RxNumbersViewController.swift */,
 			);
 			name = RxNumbers;
 			sourceTree = "<group>";
@@ -249,7 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6006F5DD1F111D2B00A0A150 /* AddingItemViewController.storyboard in Resources */,
-				60C28BF31F106AB600D3543F /* NumbersViewController.storyboard in Resources */,
+				60C28BF31F106AB600D3543F /* RxNumbersViewController.storyboard in Resources */,
 				605A50B11F0FC358004C6EC6 /* LaunchScreen.storyboard in Resources */,
 				6006F5E11F11C03400A0A150 /* RxAddingItemViewController.storyboard in Resources */,
 				605A50AE1F0FC358004C6EC6 /* Assets.xcassets in Resources */,
@@ -297,7 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6006F5E31F11C07300A0A150 /* RxAddingItemViewController.swift in Sources */,
-				605A50A91F0FC358004C6EC6 /* NumbersViewController.swift in Sources */,
+				605A50A91F0FC358004C6EC6 /* RxNumbersViewController.swift in Sources */,
 				6006F5DB1F111D1800A0A150 /* AddingItemViewController.swift in Sources */,
 				605A50A71F0FC358004C6EC6 /* AppDelegate.swift in Sources */,
 			);

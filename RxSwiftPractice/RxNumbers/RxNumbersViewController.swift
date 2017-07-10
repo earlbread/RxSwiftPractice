@@ -1,5 +1,5 @@
 //
-//  NumbersViewController.swift
+//  RxNumbersViewController.swift
 //  RxSwiftPractice
 //
 //  Created by Seunghun Lee on 2017-07-07.
@@ -10,7 +10,7 @@ import UIKit
 import RxSwift
 import RxCocoa
 
-class NumbersViewController: UIViewController {
+class RxNumbersViewController: UIViewController {
   // MARK: Properties
   @IBOutlet weak var number1: UITextField!
   @IBOutlet weak var number2: UITextField!
