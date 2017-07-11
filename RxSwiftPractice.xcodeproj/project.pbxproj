@@ -19,6 +19,8 @@
 		605A50BC1F0FC358004C6EC6 /* RxSwiftPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605A50BB1F0FC358004C6EC6 /* RxSwiftPracticeTests.swift */; };
 		605A50CC1F0FC65A004C6EC6 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 605A50C81F0FC65A004C6EC6 /* RxCocoa.framework */; };
 		605A50CD1F0FC65A004C6EC6 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 605A50C91F0FC65A004C6EC6 /* RxSwift.framework */; };
+		607E189E1F14F95E0046C3BF /* SimpleValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607E189D1F14F95E0046C3BF /* SimpleValidationViewController.swift */; };
+		607E18A01F14F9A90046C3BF /* SimpleValidationViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607E189F1F14F9A90046C3BF /* SimpleValidationViewController.storyboard */; };
 		60C28BF31F106AB600D3543F /* RxNumbersViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60C28BF21F106AB600D3543F /* RxNumbersViewController.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +53,8 @@
 		605A50C81F0FC65A004C6EC6 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		605A50C91F0FC65A004C6EC6 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		605A50CA1F0FC65A004C6EC6 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
+		607E189D1F14F95E0046C3BF /* SimpleValidationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimpleValidationViewController.swift; path = SimpleValidation/SimpleValidationViewController.swift; sourceTree = "<group>"; };
+		607E189F1F14F9A90046C3BF /* SimpleValidationViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SimpleValidationViewController.storyboard; path = SimpleValidation/SimpleValidationViewController.storyboard; sourceTree = "<group>"; };
 		60C28BF21F106AB600D3543F /* RxNumbersViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = RxNumbersViewController.storyboard; path = RxNumbers/RxNumbersViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,6 +118,7 @@
 		605A50A51F0FC358004C6EC6 /* RxSwiftPractice */ = {
 			isa = PBXGroup;
 			children = (
+				607E189B1F14F8D30046C3BF /* SimpleValidation */,
 				6006F5DF1F11BFFC00A0A150 /* RxAddingItem */,
 				6006F5D71F111CE000A0A150 /* AddingItem */,
 				605A50D41F105F97004C6EC6 /* RxNumbers */,
@@ -149,6 +154,15 @@
 				605A50A81F0FC358004C6EC6 /* RxNumbersViewController.swift */,
 			);
 			name = RxNumbers;
+			sourceTree = "<group>";
+		};
+		607E189B1F14F8D30046C3BF /* SimpleValidation */ = {
+			isa = PBXGroup;
+			children = (
+				607E189D1F14F95E0046C3BF /* SimpleValidationViewController.swift */,
+				607E189F1F14F9A90046C3BF /* SimpleValidationViewController.storyboard */,
+			);
+			name = SimpleValidation;
 			sourceTree = "<group>";
 		};
 		60C28BF41F1088FE00D3543F /* Application */ = {
@@ -252,6 +266,7 @@
 				60C28BF31F106AB600D3543F /* RxNumbersViewController.storyboard in Resources */,
 				605A50B11F0FC358004C6EC6 /* LaunchScreen.storyboard in Resources */,
 				6006F5E11F11C03400A0A150 /* RxAddingItemViewController.storyboard in Resources */,
+				607E18A01F14F9A90046C3BF /* SimpleValidationViewController.storyboard in Resources */,
 				605A50AE1F0FC358004C6EC6 /* Assets.xcassets in Resources */,
 				605A50AC1F0FC358004C6EC6 /* Main.storyboard in Resources */,
 			);
@@ -300,6 +315,7 @@
 				605A50A91F0FC358004C6EC6 /* RxNumbersViewController.swift in Sources */,
 				6006F5DB1F111D1800A0A150 /* AddingItemViewController.swift in Sources */,
 				605A50A71F0FC358004C6EC6 /* AppDelegate.swift in Sources */,
+				607E189E1F14F95E0046C3BF /* SimpleValidationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
