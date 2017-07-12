@@ -80,12 +80,32 @@
                                             <segue destination="TFk-3P-sYU" kind="show" id="A1G-2b-KhV"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="af8-X6-BeI">
+                                        <rect key="frame" x="0.0" y="187.5" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="af8-X6-BeI" id="BbL-9G-nw5">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Simple Validation MVVM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jYB-nd-5Mp">
+                                                    <rect key="frame" x="8" y="8" width="187" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="K7D-2S-lIT" kind="show" id="6xG-jf-OFf"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                             <tableViewSection headerTitle="Non RxExamples" id="uVc-Aa-H8H">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="kmj-kN-ALL">
-                                        <rect key="frame" x="0.0" y="243.5" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="287.5" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kmj-kN-ALL" id="F9y-lX-KIr">
                                             <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
@@ -102,7 +122,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="YdD-Gn-DlH">
-                                        <rect key="frame" x="0.0" y="287.5" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="331.5" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="YdD-Gn-DlH" id="8Ix-HR-wsl">
                                             <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
@@ -122,7 +142,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="LBS-15-JLf">
-                                        <rect key="frame" x="0.0" y="331.5" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="375.5" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LBS-15-JLf" id="SLQ-Zg-DIX">
                                             <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
@@ -197,13 +217,21 @@
             </objects>
             <point key="canvasLocation" x="1006" y="-87"/>
         </scene>
+        <!--RxSimpleValidationMVVMViewController-->
+        <scene sceneID="SAs-y5-ucV">
+            <objects>
+                <viewControllerPlaceholder storyboardName="RxSimpleValidationMVVMViewController" id="K7D-2S-lIT" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J7p-Nk-G9Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1037" y="-40"/>
+        </scene>
         <!--AddingItemViewController-->
         <scene sceneID="fng-xp-mr7">
             <objects>
                 <viewControllerPlaceholder storyboardName="AddingItemViewController" id="8ZQ-6Z-cFG" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rZS-zh-Wkb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="959" y="-46"/>
+            <point key="canvasLocation" x="970" y="188"/>
         </scene>
         <!--SimpleValidationViewController-->
         <scene sceneID="syr-ep-jdc">
@@ -211,7 +239,7 @@
                 <viewControllerPlaceholder storyboardName="SimpleValidationViewController" id="DRA-l4-eA1" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ncf-mX-snK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="983" y="4"/>
+            <point key="canvasLocation" x="993" y="233"/>
         </scene>
     </scenes>
 </document>
