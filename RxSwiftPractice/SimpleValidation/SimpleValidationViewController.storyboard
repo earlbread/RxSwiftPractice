@@ -64,6 +64,9 @@
                                         <rect key="frame" x="0.0" y="202" width="335" height="30"/>
                                         <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="Validate!"/>
+                                        <connections>
+                                            <action selector="validateButtonDidTap:" destination="YN7-oi-f8A" eventType="touchUpInside" id="VCu-sD-dox"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -77,6 +80,13 @@
                     </view>
                     <navigationItem key="navigationItem" title="Simple Validation" id="Jhe-9B-eOq"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="passwordTextField" destination="gvZ-MI-dyP" id="hSq-3t-qC5"/>
+                        <outlet property="passwordValidLabel" destination="U7O-7a-RCk" id="Pl6-lP-wfA"/>
+                        <outlet property="usernameTextField" destination="9xp-ZL-h0X" id="Tl8-E2-Vmj"/>
+                        <outlet property="usernameValidLabel" destination="GGR-RF-cPQ" id="NL7-Bi-sGB"/>
+                        <outlet property="validateButton" destination="SHC-zr-iEC" id="X6f-YJ-KdE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hL0-Gq-fiR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
