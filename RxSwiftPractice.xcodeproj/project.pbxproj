@@ -21,6 +21,8 @@
 		605A50CD1F0FC65A004C6EC6 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 605A50C91F0FC65A004C6EC6 /* RxSwift.framework */; };
 		607E189E1F14F95E0046C3BF /* SimpleValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607E189D1F14F95E0046C3BF /* SimpleValidationViewController.swift */; };
 		607E18A01F14F9A90046C3BF /* SimpleValidationViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607E189F1F14F9A90046C3BF /* SimpleValidationViewController.storyboard */; };
+		607E18A31F15B17D0046C3BF /* RxSimpleValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607E18A21F15B17D0046C3BF /* RxSimpleValidationViewController.swift */; };
+		607E18A51F15B19C0046C3BF /* RxSimpleValidationViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607E18A41F15B19C0046C3BF /* RxSimpleValidationViewController.storyboard */; };
 		60C28BF31F106AB600D3543F /* RxNumbersViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60C28BF21F106AB600D3543F /* RxNumbersViewController.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +57,8 @@
 		605A50CA1F0FC65A004C6EC6 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
 		607E189D1F14F95E0046C3BF /* SimpleValidationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimpleValidationViewController.swift; path = SimpleValidation/SimpleValidationViewController.swift; sourceTree = "<group>"; };
 		607E189F1F14F9A90046C3BF /* SimpleValidationViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SimpleValidationViewController.storyboard; path = SimpleValidation/SimpleValidationViewController.storyboard; sourceTree = "<group>"; };
+		607E18A21F15B17D0046C3BF /* RxSimpleValidationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RxSimpleValidationViewController.swift; path = RxSimpleValidation/RxSimpleValidationViewController.swift; sourceTree = "<group>"; };
+		607E18A41F15B19C0046C3BF /* RxSimpleValidationViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = RxSimpleValidationViewController.storyboard; path = RxSimpleValidation/RxSimpleValidationViewController.storyboard; sourceTree = "<group>"; };
 		60C28BF21F106AB600D3543F /* RxNumbersViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = RxNumbersViewController.storyboard; path = RxNumbers/RxNumbersViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,6 +122,7 @@
 		605A50A51F0FC358004C6EC6 /* RxSwiftPractice */ = {
 			isa = PBXGroup;
 			children = (
+				607E18A11F15B1180046C3BF /* RxSimpleValidation */,
 				607E189B1F14F8D30046C3BF /* SimpleValidation */,
 				6006F5DF1F11BFFC00A0A150 /* RxAddingItem */,
 				6006F5D71F111CE000A0A150 /* AddingItem */,
@@ -163,6 +168,15 @@
 				607E189F1F14F9A90046C3BF /* SimpleValidationViewController.storyboard */,
 			);
 			name = SimpleValidation;
+			sourceTree = "<group>";
+		};
+		607E18A11F15B1180046C3BF /* RxSimpleValidation */ = {
+			isa = PBXGroup;
+			children = (
+				607E18A21F15B17D0046C3BF /* RxSimpleValidationViewController.swift */,
+				607E18A41F15B19C0046C3BF /* RxSimpleValidationViewController.storyboard */,
+			);
+			name = RxSimpleValidation;
 			sourceTree = "<group>";
 		};
 		60C28BF41F1088FE00D3543F /* Application */ = {
@@ -262,6 +276,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				607E18A51F15B19C0046C3BF /* RxSimpleValidationViewController.storyboard in Resources */,
 				6006F5DD1F111D2B00A0A150 /* AddingItemViewController.storyboard in Resources */,
 				60C28BF31F106AB600D3543F /* RxNumbersViewController.storyboard in Resources */,
 				605A50B11F0FC358004C6EC6 /* LaunchScreen.storyboard in Resources */,
@@ -312,6 +327,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6006F5E31F11C07300A0A150 /* RxAddingItemViewController.swift in Sources */,
+				607E18A31F15B17D0046C3BF /* RxSimpleValidationViewController.swift in Sources */,
 				605A50A91F0FC358004C6EC6 /* RxNumbersViewController.swift in Sources */,
 				6006F5DB1F111D1800A0A150 /* AddingItemViewController.swift in Sources */,
 				605A50A71F0FC358004C6EC6 /* AppDelegate.swift in Sources */,
